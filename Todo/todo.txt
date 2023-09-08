@@ -2,15 +2,15 @@ Todo
 
 Part-1 
 
-Create vertual envirenment and activate it interenv
-Install Django and crate project interiorshop
-create app for core views and add to installed apps
-Add a simple front page
-Add sttic files (static/styles/main.css)
+done Create vertual envirenment and activate it interenv
+done Install Django and crate project interiorshop
+done create app for core views and add to installed apps
+done Add a simple front page
+done Add sttic files (static/styles/main.css)
 
-create app for venders and add to installec apps
-create database model for the vendors
-Creae view, template and form for sign up
+done create app for venders and add to installec apps
+done create database model for the vendors
+done Create view, template and form for sign up
 Create simle area for vendors (for testing)
 Make it possible to log out and in again
 
