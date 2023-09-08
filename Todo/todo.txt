@@ -15,10 +15,11 @@ done Create simle area for vendors (for testing)
 
 done Make it possible to log out and in again
 
-Crate app and modls for products and categories
-show list of products in the admin area
+done Crate app and modls for products and categories
+done show list of products in the admin area
 Make it possible for vendors to add products
 
 Show newest producs on the frontpage 
 show detail view of a product
 Show a category
+Create a simple serach 
