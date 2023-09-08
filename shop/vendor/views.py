@@ -24,7 +24,7 @@ def become_vendor(request):
 
 @login_required
 def vendor_admin(request):
-    vendor = request.user.vendor
+    vendor = request.user.vendor 
     
     return render(request,'vendor/vendor_admin.html',{'vendor':vendor})
     

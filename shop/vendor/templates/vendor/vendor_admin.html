@@ -1,6 +1,12 @@
 {% extends 'core/base.html' %}
 {% block title %}vendor admin|{% endblock title %}
 {% block content %}
+<div class="box"> 
 <h1 class="title"> Vendor admin - {{ vendor.name }}</h1>
+<a href="{% url 'logout' %}" class="button is-danger is-uppercase">Logout</a>
+</div>
 
+<hr>
+<h2 class="subtitle">Already have an account ?</h2>
+<a href="{% url 'login' %}">Log in </a>
 {% endblock content %}

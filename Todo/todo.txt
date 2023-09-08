@@ -13,7 +13,7 @@ done create database model for the vendors
 done Create view, template and form for sign up
 done Create simle area for vendors (for testing)
 
-Make it possible to log out and in again
+done Make it possible to log out and in again
 
 Crate app and modls for products and categories
 show list of products in the admin area
