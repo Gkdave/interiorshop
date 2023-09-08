@@ -11,7 +11,8 @@ done Add sttic files (static/styles/main.css)
 done create app for venders and add to installec apps
 done create database model for the vendors
 done Create view, template and form for sign up
-Create simle area for vendors (for testing)
+done Create simle area for vendors (for testing)
+
 Make it possible to log out and in again
 
 Crate app and modls for products and categories
