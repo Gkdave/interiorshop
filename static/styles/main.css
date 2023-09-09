@@ -23,3 +23,15 @@ Footer
  .input, .button {
     border-radius: 0;
  }
+ /**
+ *Product List item
+
+ **/
+ .product-list-item .box .subtitle {
+    margin-bottom: 0;
+    color: #e00d0d;
+ }
+
+ .product-list-item .box .price {
+    color: #e00d0d;
+ }

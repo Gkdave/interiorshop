@@ -19,7 +19,8 @@ done Crate app and modls for products and categories
 done show list of products in the admin area
 done Make it possible for vendors to add products
 
-Show newest products on the frontpage 
-show detail view of a product
-Show a category
-Create a simple search 
+done Show newest products on the frontpage 
+done show detail view of a product
+done Show a category
+done Create a simple search 
+

@@ -39,13 +39,13 @@ class Product(models.Model):
 
     def get_thumbnail(self):
         if self.thumbnail:
-            return slef.thumbnail.url
+            return self.thumbnail.url
         else:
             if self.image:
                 self.thumbnail = self.make_thumbnail(self.image)
                 self.save()
                 
-                return slef.thumbnail.url
+                return self.thumbnail.url
             else:
                 return 'https://via.placeholder.com/248x180.jpg'
     def make_thumbnail(self, image, size=(300, 200)):
@@ -53,8 +53,8 @@ class Product(models.Model):
         img.convert('RGB')
         img.thumbnail(size)
         
-        thub_io = BytesIO()
-        img.save(thumb_io, 'JPEG',quality=85)
+        thumb_io = BytesIO()
+        img.save(thumb_io,'JPEG',quality=85)
         
         thumbnail = File(thumb_io, name= image.name)
         
