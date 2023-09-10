@@ -30,6 +30,9 @@ ALLOWED_HOSTS = []
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'vendor_admin'
 LOGOUT_REDIRECT_URL = 'frontpage'
+
+SESSION_COOKIE_AGE = 86400
+CART_SESSION_ID = 'cart'
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,9 +42,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'shop.cart',
     'shop.core',
     'shop.product',
     'shop.vendor',
+    
 ]
 
 MIDDLEWARE = [
