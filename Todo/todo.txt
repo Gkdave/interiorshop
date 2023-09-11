@@ -25,7 +25,7 @@ done Show a category
 done Create a simple search 
 
 Part-2
--Make it possible to add products to the cart 
+done -Make it possible to add products to the cart 
 -Create view and template for the cart
 -make it possible to remove products from the cart 
 -Make it possible to update the quantty
