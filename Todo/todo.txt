@@ -31,7 +31,7 @@ Part-2
 -Make it possible to update the quantty
 
 -Create nw app and models for the orders
--Make it possible to checkout
+done -Make it possible to checkout
 -Create a success page
 
 -Show orders in the vendor area
