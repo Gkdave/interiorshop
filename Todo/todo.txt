@@ -32,7 +32,7 @@ Part-2
 
 -DONE Create newapp and models for the orders
 -DONE Make it possible to checkout
--Create a success page
+-DONE Create a success page
 
 -Show orders in the vendor area
 
