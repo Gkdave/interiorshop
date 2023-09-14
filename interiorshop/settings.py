@@ -27,11 +27,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STRIPE_PUB_KEY ='pk_test_51Nplk8SFKeLHlcJwVHomN9ttinsXTJNjCXIOge6u2iVtou4sPT76RedWjXpTG9goNCjZHOgOtQNSX7X5K4HxRG4Y00U1eFWMtx'
+STRIPE_SECRET_KEY ='sk_test_51Nplk8SFKeLHlcJwas8zuyIdVnRDCIUu11a93sTuEN6raUv4WWcyKvWUtsaXr4TKQ4BKHuWlHkup32ZWHNeJ6H9j00nFM06BpM'
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'vendor_admin'
 LOGOUT_REDIRECT_URL = 'frontpage'
 
-SESSION_COOKIE_AGE = 86400
+SESSION_COOKIE_AGE = 68400 
 CART_SESSION_ID = 'cart'
 # Application definition
 
@@ -44,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'shop.cart',
     'shop.core',
+    'shop.order',
     'shop.product',
     'shop.vendor',
     

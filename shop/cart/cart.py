@@ -16,7 +16,7 @@ class Cart(object):
         for p in self.cart.keys():
             self.cart[str(p)]['product']= Product.objects.get(pk=p)
             
-        for items in self.cart.values():
+        for item in self.cart.values():
             item['total_price'] = item['product'].price = item['quantity']
             
             yield item
