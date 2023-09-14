@@ -23,4 +23,23 @@ done Show newest products on the frontpage
 done show detail view of a product
 done Show a category
 done Create a simple search 
+ 
+Part-2
+-DONE Make it possible to add products to the cart 
+-DONE Create view and template for the cart
+-DONE Make it possible to remove products from the cart 
+-DONE Make it possible to update the quantty
+
+-DONE Create newapp and models for the orders
+-DONE Make it possible to checkout
+-Create a success page
+
+-Show orders in the vendor area
+
+-Make it posseble to edite a vendor
+
+-Notify the vendor after a sale 
+-Show a lis t of vendors
+-Makd it possible to see all products from avendor 
+
 
