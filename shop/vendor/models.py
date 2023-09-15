@@ -12,4 +12,12 @@ class Vendor(models.Model):
         
     def __str__(self):
         return self.name 
-        
+    
+    def get_balance(self):
+        items = self.items.filter(vendor_paid=False, order__vendors__in=[self.id])
+        return sum((item.product.price * item.queantity) for item in items)
+       
+    def get_amount(self):
+        items = self.item.filter(vendor_paid=True, order__vendors__in=[slef.id])
+        return sum((item.product.price * item.queantity) for item in items)
+            

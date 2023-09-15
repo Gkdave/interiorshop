@@ -3,6 +3,10 @@
 {% block content %}
 <div class="box"> 
     <h1 class="title"> Vendor admin - {{ vendor.name }}</h1>
+    <strong> My balance:</strong>${{ vendor.get_balance }}4000
+    <strong> My paid amount:</strong>${{ vendor.get_paid_amount }}1099 <br><br>
+
+        <a href="{% url 'edit_vendor' %}" class="button is-info is-uppercase">Edit </a>
         <a href="{% url 'logout' %}" class="button is-danger is-uppercase">Logout</a>
     
 </div>

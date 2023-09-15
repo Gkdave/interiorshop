@@ -34,9 +34,9 @@ Part-2
 -DONE Make it possible to checkout
 -DONE Create a success page
 
--Show orders in the vendor area
+-DONE Show orders in the vendor area
 
--Make it posseble to edite a vendor
+-Done Make it posseble to edit a vendor
 
 -Notify the vendor after a sale 
 -Show a lis t of vendors
