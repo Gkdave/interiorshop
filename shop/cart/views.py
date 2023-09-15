@@ -19,7 +19,7 @@ def cart_detail(request):
             stripe.api_key = settings.STRIPE_SECRET_KEY
             
             stripe_token = form.cleaned_data['stripe_token']
-        try:
+  
             Charge = stripe.Charge.create(
                 amount=int(cart.get_total_cost() * 100 ),
                 currency='USD',
@@ -40,27 +40,27 @@ def cart_detail(request):
             cart.clear()
             
             return redirect('success')
-        except Exception:
+     
             messages.error(request, 'there was something wrong with the payment')
-    else:
-        form = CheckoutForm()
+        else:
+            form = CheckoutForm()
             
         
         
-    remove_from_cart = request.GET.get ('remove_from_cart','')
-    change_quantity = request.GET.get('change_quantity','')
-    quantity = request.GET.get('quantity',0)
-   
-    if remove_from_cart:
-        cart.remove(remove_from_cart)
-   
-        return redirect('cart')
+        remove_from_cart = request.GET.get ('remove_from_cart','')
+        change_quantity = request.GET.get('change_quantity','')
+        quantity = request.GET.get('quantity',0)
     
-    if change_quantity:
-        cart.add(change_quantity, quantity, True)
-        
-        return redirect('cart')
-        
+        if remove_from_cart:
+            cart.remove(remove_from_cart)
+    
+            return redirect('cart')
+    
+        if change_quantity:
+            cart.add(change_quantity, quantity, True)
+            
+            return redirect('cart')
+            
     return render(request,'cart/cart.html',{'form': form, 'stripe_pub_key': settings.STRIPE_PUB_KEY})
 
 def success(request):
