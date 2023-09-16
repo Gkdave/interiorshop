@@ -40,6 +40,6 @@ Part-2
 
 -Done Notify the vendor after a sale 
 -Done Show a list of vendors
--Makd it possible to see all products from a vendor 
+-Done Makd it possible to see all products from a vendor 
 
 
