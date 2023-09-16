@@ -39,7 +39,7 @@ Part-2
 -Done Make it posseble to edit a vendor
 
 -Done Notify the vendor after a sale 
--Show a list of vendors
--Makd it possible to see all products from avendor 
+-Done Show a list of vendors
+-Makd it possible to see all products from a vendor 
 
 
