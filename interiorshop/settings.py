@@ -35,6 +35,19 @@ LOGOUT_REDIRECT_URL = 'frontpage'
 
 SESSION_COOKIE_AGE = 68400 
 CART_SESSION_ID = 'cart'
+
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = 'apikey'
+EMAIL_HOST_PAWORD = 'SG.JADD'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+DEFAULT_EMAIL_FROM = 'interiorstore <noreply@davegk.com'
+
+
+
+
+
+
 # Application definition
 
 INSTALLED_APPS = [
