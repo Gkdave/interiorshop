@@ -42,4 +42,19 @@ Part-2
 -Done Show a list of vendors
 -Makd it possible to see all products from a vendor 
 
+part 3 -)
+
+-Deploy
+    -set up server
+    -Set up postsql database
+    -Users
+    -Virtual envirenment
+    -Get project
+    -Set envirenment variables
+    -Create settings file for prod
+    -Gunicorn
+    -Supervisor 
+    -Nginx 
+    -SSL
+
 
