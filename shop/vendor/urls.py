@@ -12,4 +12,5 @@ urlpatterns = [
          LogoutView.as_view(), name='logout'),
     path('login/',auth_views.LoginView.as_view(template_name='vendor/login.html'),name='login'),
     path('', views.vendors, name= 'vendors'),
+    path('<int:vendor_id>/',views.vendor,name='vendor'),
 ]
