@@ -1,8 +1,5 @@
 
-# gajendra    dave@123
-# bhawana     admin@123
-# himanshu    gajendra@12
-# ravindra    admin@12
+
 
 from django.conf import settings 
 from django.contrib import admin
